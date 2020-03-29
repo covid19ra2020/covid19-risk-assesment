@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1585494145452,
+  "index": "/covid19-risk-assesment/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/covid19-risk-assesment/favicon.ico",
+        "/covid19-risk-assesment/index.html",
+        "/covid19-risk-assesment/main-es2015.cf0673d8a530e38eba3b.js",
+        "/covid19-risk-assesment/main-es5.cf0673d8a530e38eba3b.js",
+        "/covid19-risk-assesment/manifest.webmanifest",
+        "/covid19-risk-assesment/polyfills-es2015.bbb42ff2e1c488ff52d5.js",
+        "/covid19-risk-assesment/polyfills-es5.0e4e1968447fab48e788.js",
+        "/covid19-risk-assesment/runtime-es2015.c9afb3256f2870e161de.js",
+        "/covid19-risk-assesment/runtime-es5.c9afb3256f2870e161de.js",
+        "/covid19-risk-assesment/scripts.e8090da0c1b5cfcab2a0.js",
+        "/covid19-risk-assesment/styles.575d405501e57d37720f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/covid19-risk-assesment/assets/icons/icon-128x128.png",
+        "/covid19-risk-assesment/assets/icons/icon-144x144.png",
+        "/covid19-risk-assesment/assets/icons/icon-152x152.png",
+        "/covid19-risk-assesment/assets/icons/icon-192x192.png",
+        "/covid19-risk-assesment/assets/icons/icon-384x384.png",
+        "/covid19-risk-assesment/assets/icons/icon-72x72.png",
+        "/covid19-risk-assesment/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/covid19-risk-assesment/assets/icons/icon-128x128.png": "979d6e84a1d507d83b94899a527f30fa0b66b3c6",
+    "/covid19-risk-assesment/assets/icons/icon-144x144.png": "ab0781a3450867da3ed3eae56df1a00078325022",
+    "/covid19-risk-assesment/assets/icons/icon-152x152.png": "6a744c4ddeabbc2c426cc47dfd6e9e0e1b8e124b",
+    "/covid19-risk-assesment/assets/icons/icon-192x192.png": "2e942e95c81c5b854bf3265f0527ceb9ceef2bec",
+    "/covid19-risk-assesment/assets/icons/icon-384x384.png": "08366771abae824d87d77d30885bca1c28d276fb",
+    "/covid19-risk-assesment/assets/icons/icon-72x72.png": "f703470a8b5424265ae80303dd7b2ec9c2e911e8",
+    "/covid19-risk-assesment/assets/icons/icon-96x96.png": "177ce349896026339d7ea7e971d603aa0121f70d",
+    "/covid19-risk-assesment/favicon.ico": "fd7143dfa60b2673407189695e6bcb7f269b063f",
+    "/covid19-risk-assesment/index.html": "a75d627b23a0b2786fbf9c876a831675fbc3a7ff",
+    "/covid19-risk-assesment/main-es2015.cf0673d8a530e38eba3b.js": "c50e5f73197f405181cbf466ed469a42d9a66732",
+    "/covid19-risk-assesment/main-es5.cf0673d8a530e38eba3b.js": "9ebc75d5512650f6e5fbf613bb738f89da4fc9c1",
+    "/covid19-risk-assesment/manifest.webmanifest": "e5155193da7b0dd1a574c342dff813d7c2c2553b",
+    "/covid19-risk-assesment/polyfills-es2015.bbb42ff2e1c488ff52d5.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/covid19-risk-assesment/polyfills-es5.0e4e1968447fab48e788.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
+    "/covid19-risk-assesment/runtime-es2015.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/covid19-risk-assesment/runtime-es5.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/covid19-risk-assesment/scripts.e8090da0c1b5cfcab2a0.js": "e409293dad28284e193dba14c66eec68c3076717",
+    "/covid19-risk-assesment/styles.575d405501e57d37720f.css": "26293896d14b2998a411486238b5ccf31e9c9f6a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

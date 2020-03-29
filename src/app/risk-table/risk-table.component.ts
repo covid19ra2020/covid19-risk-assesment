@@ -47,7 +47,7 @@ export class RiskTableComponent implements OnInit {
         },
         {
           level: 'none',
-          colour: "white",
+          colour: "green",
           data: [
             'None'
           ]
@@ -89,7 +89,7 @@ export class RiskTableComponent implements OnInit {
         },
         {
           level: 'none',
-          colour: "white",
+          colour: "green",
           data: [
             'None',
             'Routine medical care'
