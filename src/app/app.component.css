@@ -1,0 +1,15 @@
+
+p {
+    color: green;
+  }
+  
+  div{
+    width: 100%;
+    padding: 0.8em 0.8em 0.6em;
+    border: 2px solid rgba(0, 102, 255, 0.473);
+    text-align: left;
+  }
+  #customized {
+    font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+  }
+  

@@ -1,0 +1,6 @@
+<div class="border border-dark rounded">
+    <h3 *ngIf="!questionIdentifier.includes(questions[currentQuestion].question)">{{questions[currentQuestion].question}}</h3>
+    <button type="button" class="btn btn-primary btn-lg" *ngIf="!questionIdentifier.includes(questions[currentQuestion].question)" (click)="currentQuestion=questions[currentQuestion].yesRoute">Yes</button>
+    <button type="button" class="btn btn-secondary btn-lg" *ngIf="!questionIdentifier.includes(questions[currentQuestion].question)" (click)="currentQuestion=questions[currentQuestion].noRoute">No</button>
+    <app-risk-table *ngIf="questionIdentifier.includes(questions[currentQuestion].question)" riskLevel={{questions[currentQuestion].question}}></app-risk-table>
+</div>
