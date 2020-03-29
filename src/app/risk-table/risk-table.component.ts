@@ -121,7 +121,7 @@ export class RiskTableComponent implements OnInit {
 
   private GetCountry() {
     debugger;
-    this.http.get("http://api.ipstack.com/check?access_key=7256f3713c417ffa3ebe9ee2d901967f").subscribe(o => 
+    this.http.get("https://api.ipgeolocation.io/ipgeo?apiKey=96a23374c1244c78936c7652ae1b273d").subscribe(o => 
     this.country = o["country_name"]
     );
   }
