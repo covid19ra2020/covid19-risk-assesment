@@ -57,7 +57,7 @@ export class QuestionsComponent implements OnInit {
       "questionNumber": 6,
       "question": "Were all recommended precautions for home care and isolation followed consistently?",
       "yesRoute": 10,
-      "noRoute": 11
+      "noRoute": 9
     },
     {
       "questionNumber": 7,

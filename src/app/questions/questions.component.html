@@ -1,6 +1,13 @@
-<div class="border border-dark rounded">
-    <h3 *ngIf="!questionIdentifier.includes(questions[currentQuestion].question)">{{questions[currentQuestion].question}}</h3>
-    <button type="button" class="btn btn-primary btn-lg" *ngIf="!questionIdentifier.includes(questions[currentQuestion].question)" (click)="currentQuestion=questions[currentQuestion].yesRoute">Yes</button>
-    <button type="button" class="btn btn-secondary btn-lg" *ngIf="!questionIdentifier.includes(questions[currentQuestion].question)" (click)="currentQuestion=questions[currentQuestion].noRoute">No</button>
+<div >
+    <h3 *ngIf="!questionIdentifier.includes(questions[currentQuestion].question) && !questions[currentQuestion].question.includes('Refer to Guidance')">{{questions[currentQuestion].question}}</h3>
+    <h3 *ngIf="!questionIdentifier.includes(questions[currentQuestion].question) && questions[currentQuestion].question.includes('Refer to Guidance')"><a href="https://www.cdc.gov/coronavirus/2019-ncov/php/risk-assessment.html" target="_blank">{{questions[currentQuestion].question}}</a></h3>
+    <div class="row">
+        <div id="buttons" class="text-center">
+            <button type="button" class="btn btn-primary btn-lg" *ngIf="!questionIdentifier.includes(questions[currentQuestion].question) && !questions[currentQuestion].question.includes('Refer to Guidance')" (click)="currentQuestion=questions[currentQuestion].yesRoute">Yes</button>
+         </div>
+        <div id="buttons" class="text-center">
+            <button type="button" class="btn btn-secondary btn-lg" *ngIf="!questionIdentifier.includes(questions[currentQuestion].question) && !questions[currentQuestion].question.includes('Refer to Guidance')" (click)="currentQuestion=questions[currentQuestion].noRoute">No</button>    
+        </div>
+    </div>
     <app-risk-table *ngIf="questionIdentifier.includes(questions[currentQuestion].question)" riskLevel={{questions[currentQuestion].question}}></app-risk-table>
 </div>
