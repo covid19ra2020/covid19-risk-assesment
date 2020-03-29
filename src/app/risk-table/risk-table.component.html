@@ -8,7 +8,7 @@
         <li>Difficulty breathing</li>
     </ul>
     <button class="btn btn-primary" (click)="questionAnswered=true; tableToShow=1">Yes</button>
-    <button class="btn btn-secodary" (click)="questionAnswered=true; tableToShow=0">No</button>
+    <button class="btn btn-secondary" (click)="questionAnswered=true; tableToShow=0">No</button>
 </div>
 <div *ngIf="questionAnswered">
     <h2>{{currentRiskData[tableToShow].heading}}</h2>
