@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-risk-table',
@@ -11,7 +12,9 @@ export class RiskTableComponent implements OnInit {
 
   currentRiskData: Array<{heading: string, level:string, colour:string, data: string[]}> = [];
   questionAnswered: boolean = false;
-  tableToShow:number = 2;
+  tableToShow: number = 2;
+  country: string = "";
+
   riskData = [
     {
       heading: 'Actions for people without symptoms consistent with COVID-19',
@@ -95,8 +98,7 @@ export class RiskTableComponent implements OnInit {
       ]
     }
   ]
-  constructor() { 
-    debugger;
+  constructor(private http: HttpClient) { 
     
   }
 
@@ -114,6 +116,14 @@ export class RiskTableComponent implements OnInit {
         }
       });
     });
+    this.GetCountry();
+  }
+
+  private GetCountry() {
+    debugger;
+    this.http.get("http://api.ipstack.com/check?access_key=7256f3713c417ffa3ebe9ee2d901967f").subscribe(o => 
+    this.country = o["country_name"]
+    );
   }
 
 }
