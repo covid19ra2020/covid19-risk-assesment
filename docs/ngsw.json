@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585508457893,
+  "timestamp": 1585511453570,
   "index": "/covid19-risk-assesment/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/covid19-risk-assesment/favicon.ico",
         "/covid19-risk-assesment/index.html",
-        "/covid19-risk-assesment/main-es2015.dd4ff8d87cf2cb35127d.js",
-        "/covid19-risk-assesment/main-es5.dd4ff8d87cf2cb35127d.js",
+        "/covid19-risk-assesment/main-es2015.0c2761273b00d162b57a.js",
+        "/covid19-risk-assesment/main-es5.0c2761273b00d162b57a.js",
         "/covid19-risk-assesment/manifest.webmanifest",
         "/covid19-risk-assesment/polyfills-es2015.bbb42ff2e1c488ff52d5.js",
         "/covid19-risk-assesment/polyfills-es5.0e4e1968447fab48e788.js",
@@ -48,9 +48,9 @@
     "/covid19-risk-assesment/assets/icons/icon-72x72.png": "f703470a8b5424265ae80303dd7b2ec9c2e911e8",
     "/covid19-risk-assesment/assets/icons/icon-96x96.png": "177ce349896026339d7ea7e971d603aa0121f70d",
     "/covid19-risk-assesment/favicon.ico": "fd7143dfa60b2673407189695e6bcb7f269b063f",
-    "/covid19-risk-assesment/index.html": "8bd1001433f189ebcbb75b83468c49442b7f5c7b",
-    "/covid19-risk-assesment/main-es2015.dd4ff8d87cf2cb35127d.js": "c165ccc80d2795aab6eaffc5ee36fecd6bc4f5ee",
-    "/covid19-risk-assesment/main-es5.dd4ff8d87cf2cb35127d.js": "9f57e5bd32412bbf90f48bc770893c9aacd0fde7",
+    "/covid19-risk-assesment/index.html": "e51f171236d077e0cabd207d27ced8681ece9c6e",
+    "/covid19-risk-assesment/main-es2015.0c2761273b00d162b57a.js": "22643da04848d412cc2b42704dbd554deffeba6c",
+    "/covid19-risk-assesment/main-es5.0c2761273b00d162b57a.js": "0b049faeea4d8c90c5075c063cbf36b893d8b9e6",
     "/covid19-risk-assesment/manifest.webmanifest": "604affca0ef0eb9938204cfd0b8500f2fa5cc788",
     "/covid19-risk-assesment/polyfills-es2015.bbb42ff2e1c488ff52d5.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/covid19-risk-assesment/polyfills-es5.0e4e1968447fab48e788.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
